@@ -12,7 +12,7 @@ def recognize_speech():
         audio = recognizer.listen(source)
 
     try:
-        # Using Google's speech recognition service
+        # Using the recognition service
         text = recognizer.recognize_google(audio)
         print(f"Recognized: {text}")
         return text.lower()
