@@ -29,9 +29,9 @@ def main():
     while True:
         command = recognize_speech()
         if 'yes' in command:
-            send_command('drive_to_zoeys')
+            send_command('drive_to_zoey's')
         elif 'go' in command:
-            send_command('drive_to_avas')
+            send_command('drive_to_ava's')
         else:
             send_command('command_not_recognized')
 
