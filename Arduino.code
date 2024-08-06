@@ -12,9 +12,9 @@ void loop() {
     String command = Serial.readStringUntil('\n');
     command.trim();  // Clean up the command string
 
-    if (command == "drive_to_zoeys") {
+    if (command == "drive_to_zoey's") {
       driveToZoeys();
-    } else if (command == "drive_to_avas") {
+    } else if (command == "drive_to_ava's") {
       driveToAvas();
     } else {
       Serial.println("Command not recognized.");
